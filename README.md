@@ -11,7 +11,7 @@ Paper beats rock, rock beats scissors, scissors beats paper.  A simple sidescrol
 
 ### Wireframes
 
-![wireframes](/wireframe.png)
+![wireframes](wireframe.png)
 
 ### Architecture and Technologies
 - Vanilla JavaScript and `jquery` for overall structure and game logic,
