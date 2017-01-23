@@ -37,6 +37,6 @@ File structure will comprise:
 
 ### Bonus Features
 - Purchase items between rounds; bombs clear out all visible enemies, potion replenishes health, etc
-- Small chance of opposite mode:  Rules are reversed for a short time! (Made obvious by background color change, modal pop-up)
+- Small chance of opposite mode:  Rules are reversed for a short time! (Made obvious by background color change, modal pop-up -- alternatively have visually distinct 'anti'-enemies that you need to lose to)
 - Combo Meter: 5-kill streak adds x2 score multiplier, 10-kill streak grants single-hit shield, etc
 - Sound (with easy to find mute; start without sound option)
