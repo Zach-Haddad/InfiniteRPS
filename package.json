@@ -1,0 +1,23 @@
+{
+  "name": "jsProject",
+  "version": "1.0.0",
+  "description": "Production Readme",
+  "main": "bundle.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zach-Haddad/jsproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zach-Haddad/jsproject/issues"
+  },
+  "homepage": "https://github.com/Zach-Haddad/jsproject#readme"
+}
