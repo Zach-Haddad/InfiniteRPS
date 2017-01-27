@@ -33,7 +33,7 @@ body{
   background: gray;
 }
 
-#start-screen, #game-over-screen {
+#start-screen, #game-over-screen, #pause-screen {
   position: absolute;
   display: flex;
   flex-direction: column;
