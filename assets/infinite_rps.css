@@ -7,14 +7,13 @@ body{
   align-items: center;
 }
 
-.header{
+#title{
   font-family: 'Slackey', cursive;
-  width: 100%;
-  height: 10%;
-  margin-bottom: 15px;
 }
 
-.header h1{
+.footer{
+  width: 800px;
+  margin: 0 auto;
   text-align: center;
 }
 
