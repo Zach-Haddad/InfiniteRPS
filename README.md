@@ -19,8 +19,8 @@ Press start to play.  Players may morph into a rock, paper, or scissors with eit
 
 ###Implementation
 
-![spawn1](/assets/screenshots/spawn1)
-![spawn2](/assets/screenshots/spawn2)
+![spawn1](/assets/screenshots/spawn1.png)
+![spawn2](/assets/screenshots/spawn2.png)
 
 
 ###Future Features
