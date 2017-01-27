@@ -66,12 +66,26 @@ body{
   align-items: center;
 }
 
-.pause-overlay{
+#companion{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  top: 440;
+  left: 10;
+}
+
+#companion-pause{
+  margin-right: 10px;
+}
+
+.pause-overlay, .companion-overlay{
   position: absolute;
   width: 800px;
   height: 500px;
   font-family: 'Walter Turncoat';
 }
+
 
 #instruction-screen {
   position: absolute;
@@ -103,12 +117,7 @@ body{
   visibility: hidden;
 }
 
-.overlay h2:hover{
-  cursor: pointer;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffff66, 0 0 70px #ffff66, 0 0 80px #ffff66, 0 0 100px #ffff66, 0 0 150px #ffff66;
-}
-
-.pause-overlay h2:hover{
+.overlay h2:hover, .pause-overlay h2:hover, .companion-overlay h2:hover {
   cursor: pointer;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffff66, 0 0 70px #ffff66, 0 0 80px #ffff66, 0 0 100px #ffff66, 0 0 150px #ffff66;
 }
