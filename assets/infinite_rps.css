@@ -58,7 +58,7 @@ body{
   background: gray;
 }
 
-#start-screen, #game-over-screen, #pause-screen {
+#start-screen, #game-over-screen, #pause-screen, #instruction-screen {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -68,6 +68,13 @@ body{
 
 #instruction-screen {
   position: absolute;
+}
+
+.instructions-box {
+  text-align: center;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: white;
 }
 
 .main {
@@ -88,6 +95,10 @@ body{
 .overlay h2:hover{
   cursor: pointer;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffff66, 0 0 70px #ffff66, 0 0 80px #ffff66, 0 0 100px #ffff66, 0 0 150px #ffff66;
+}
+
+#how-to-start:hover{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #004d99, 0 0 70px #004d99, 0 0 80px #004d99, 0 0 100px #004d99, 0 0 150px #004d99;
 }
 
 .overlay{
