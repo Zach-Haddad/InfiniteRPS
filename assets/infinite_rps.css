@@ -58,7 +58,7 @@ body{
   background: gray;
 }
 
-#start-screen, #game-over-screen, #pause-screen, #instruction-screen {
+#start-screen, #game-over-screen, #pause-screen {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -90,6 +90,8 @@ body{
 
 #instruction-screen {
   position: absolute;
+  display: flex;
+  flex-direction: row;
 }
 
 .instructions-box {
@@ -109,8 +111,38 @@ body{
 
 .diagram-frame {
   border: 5px solid black;
-  margin: 20px;
+  margin-left: 60px;
   background-color: white;
+  height: 215px;
+}
+
+.instructions-right, .instructions-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.instructions-text {
+  background-color: white;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.instructions-buttons {
+  padding: 10px;
+  width: 40%;
+  margin: 10px auto 0px auto;
+  text-align: center;
+}
+
+#how-to-start, #how-to-back {
+  background-color: white;
+  border: 5px solid black;
+  padding: 5px;
 }
 
 .main {
@@ -140,7 +172,7 @@ body{
   opacity: 0.85;
 }
 
-#how-to-start:hover, .pause-overlay h2:hover{
+#how-to-start:hover, #how-to-back:hover, .pause-overlay h2:hover{
   cursor: pointer;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #004d99, 0 0 70px #004d99, 0 0 80px #004d99, 0 0 100px #004d99, 0 0 150px #004d99;
 }
