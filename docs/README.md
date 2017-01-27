@@ -16,7 +16,7 @@ Paper beats rock, rock beats scissors, scissors beats paper.  A simple sidescrol
 
 ### Architecture and Technologies
 - Vanilla JavaScript and `jquery` for overall structure and game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
+- `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 
 File structure will comprise:
