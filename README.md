@@ -1,8 +1,8 @@
 #Infinite RPS
 
-![title][/assets/screenshots/title.png]
+![title](/assets/screenshots/title.png)
 
-![action][/assets/screenshots/action.png]
+![action](/assets/screenshots/action.png)
 
 ### Background
 Paper beats rock, rock beats scissors, scissors beats paper.  A simple sidescrolling RPS game that pits you, a shape shifter, against an infinite amount of rocks, pieces of paper, and pairs of scissors.  Shift into the correct form to defeat your foes!  Levels become progressively more difficult as the number of enemies and the speed at which they approach increases.
@@ -19,8 +19,8 @@ Press start to play.  Players may morph into a rock, paper, or scissors with eit
 
 ###Implementation
 
-![spawn1][/assets/screenshots/spawn1]
-![spawn2][/assets/screenshots/spawn2]
+![spawn1](/assets/screenshots/spawn1)
+![spawn2](/assets/screenshots/spawn2)
 
 
 ###Future Features
