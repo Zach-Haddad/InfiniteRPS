@@ -1,6 +1,6 @@
 #Infinite RPS
 
-[](https://zach-haddad.github.io/InfiniteRPS/ "Live")
+[Live](https://zach-haddad.github.io/InfiniteRPS/ "Live")
 
 ![title](/assets/screenshots/title.png)
 
