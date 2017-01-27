@@ -1,2 +1,40 @@
 /*font-family: 'Slackey', cursive;
 font-family: 'Walter Turncoat', cursive;*/
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  font-family: 'Slackey', cursive;
+  width: 100%;
+  height: 10%;
+  margin-bottom: 15px;
+}
+
+.header h1{
+  text-align: center;
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game{
+  margin: 0 auto;
+  border: 10px solid black;
+}
+
+.rightbar{
+  width: 150px;
+  background: gray;
+}
+
+.leftbar{
+  width: 150px;
+  background: gray;
+}
