@@ -1,5 +1,7 @@
 #Infinite RPS
 
+[](https://zach-haddad.github.io/InfiniteRPS/ "Live")
+
 ![title](/assets/screenshots/title.png)
 
 ![action](/assets/screenshots/action.png)
@@ -19,7 +21,12 @@ Press start to play.  Players may morph into a rock, paper, or scissors with eit
 
 ###Implementation
 
+One of the more interesting challenges in creating this game was handling how to spawn waves of enemies that resembled distinct levels as opposed to an endless stream of random opponents.  In order to do this, I utilized two queues that were held by our game instance; enemies and active enemies.  An amount of enemies appropriate to the current level were spawned into the enemies queue.  I then set an interval (which grew potentially smaller as the levels progressed) at which rate enemies were dequeued and queued into the active enemies queue.
+
 ![spawn1](/assets/screenshots/spawn1.png)
+
+From the active enemies queue, the enemies that should appear on the screen could be appropriately rendered onto the canvas!  I experienced some issues with enemies overlapping each other, though this was solved after clearing each wave's interval at the conclusion of that wave.
+
 ![spawn2](/assets/screenshots/spawn2.png)
 
 
@@ -31,6 +38,5 @@ Press start to play.  Players may morph into a rock, paper, or scissors with eit
 - [ ] Sound effects, presentational enhancement, etc
 
 
-Credits:
-
+###Credits
 Rock, Paper, Scissors Icons: Studio Fibonacci (https://thenounproject.com/StudioFibonacci/)
