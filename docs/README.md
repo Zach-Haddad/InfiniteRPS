@@ -28,13 +28,14 @@ File structure will comprise:
 
 ### Implementation Timeline
 
-**Day 1** Set Up node modules, get webpack up and running, familiarize self with necessary canvas/easel essentials.  Set up file skeleton.  Finish as much of game logic as possible.
+**Day 1** Set Up node modules, get webpack up and running, familiarize self with necessary canvas/easel essentials.  Set up file skeleton.  Begin game logic
 
-**Day 2** Finish game logic.
+**Day 2** Game Logic: Player and Enemy Rendering, game loop
 
-**Day 3** User Interface - start screen with brief instructions, gameover/retry screen.  Background artwork/sprites.  CSS and page styling.
+**Day 3** Game Logic: RPS logic, health, score
 
-**Day 4** Finish MVPs if necessary.  Bonus features
+**Day 4** User Interface - start screen with brief instructions, gameover/retry screen.  Background artwork/sprites.  CSS and page styling.
+Finish MVPs if necessary.  Bonus features
 
 ### Bonus Features
 - Purchase items between rounds; bombs clear out all visible enemies, potion replenishes health, etc
