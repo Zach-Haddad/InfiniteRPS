@@ -77,6 +77,10 @@ body{
   background-color: white;
 }
 
+.instructions-box p{
+  font-size: 18px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
