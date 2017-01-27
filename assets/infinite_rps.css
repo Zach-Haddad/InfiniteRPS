@@ -57,8 +57,15 @@ body{
   visibility: hidden;
 }
 
+.overlay h2:hover{
+  cursor: pointer;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffff66, 0 0 70px #ffff66, 0 0 80px #ffff66, 0 0 100px #ffff66, 0 0 150px #ffff66;
+}
+
 .overlay{
   position: absolute;
   width: 800px;
   height: 500px;
+  background-image: url('./images/scrollingBackground.png');
+  font-family: 'Walter Turncoat';
 }
