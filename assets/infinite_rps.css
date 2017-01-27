@@ -17,9 +17,24 @@ body{
 }
 
 .footer{
-  width: 800px;
+  width: 780px;
   margin: 0 auto;
   text-align: center;
+  border: 8px solid black;
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a img{
+  height: 50px;
+  width: 50px;
+}
+
+.footer div img{
+  height: 50px;
+  width: 50px;
 }
 
 .body{
@@ -30,7 +45,7 @@ body{
 
 .game{
   margin: 0 auto;
-  border: 10px solid black;
+  border: 8px solid black;
 }
 
 .rightbar{
