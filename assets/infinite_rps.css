@@ -30,6 +30,11 @@ body{
 .footer a img{
   height: 50px;
   width: 50px;
+  opacity: .75;
+}
+
+.footer a img:hover{
+  opacity: 1;
 }
 
 .footer div img{
