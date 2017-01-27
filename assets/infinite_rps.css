@@ -41,6 +41,10 @@ body{
   align-items: center;
 }
 
+#instruction-screen {
+  position: absolute;
+}
+
 .main {
   display: flex;
   flex-direction: column;
