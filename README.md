@@ -25,7 +25,7 @@ One of the more interesting challenges in creating this game was handling how to
 
 ![spawn1](/assets/screenshots/spawn1.png)
 
-From the active enemies queue, the enemies that should appear on the screen could be appropriately rendered onto the canvas!  I experienced some issues with enemies overlapping each other, though this was solved after clearing each wave's interval at the conclusion of that wave.
+From the active enemies queue, the enemies that should appear on the screen could be appropriately rendered onto the canvas.  I experienced some issues with enemies overlapping each other, though this was solved after clearing each wave's interval at the conclusion of that wave.
 
 ![spawn2](/assets/screenshots/spawn2.png)
 
