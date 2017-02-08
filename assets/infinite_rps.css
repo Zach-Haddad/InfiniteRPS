@@ -80,7 +80,11 @@ body{
   margin-right: 10px;
 }
 
-#companion-pause::first-letter, #companion-restart::first-letter{
+#companion-restart{
+  margin-right: 10px;
+}
+
+#companion h2::first-letter{
   color: white;
 }
 
@@ -174,6 +178,7 @@ body{
   background-color: white;
   padding: 10 30 10 30px;
   opacity: 0.85;
+  text-align: center;
 }
 
 #how-to-start:hover, #how-to-back:hover, .pause-overlay h2:hover{
