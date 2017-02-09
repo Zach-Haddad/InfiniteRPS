@@ -33,6 +33,10 @@ body{
   opacity: .75;
 }
 
+.footer div{
+  vertical-align: middle;
+}
+
 .footer a img:hover{
   opacity: 1;
 }
