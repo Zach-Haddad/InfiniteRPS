@@ -11,7 +11,7 @@ Paper beats rock, rock beats scissors, scissors beats paper.  A simple sidescrol
 Press start to play.  Players may morph into a rock, paper, or scissors with either Z, X, and C or the left, down, and right arrow keys, respectively.  Players may restart the game by pressing R and pause with P.
 
 ### Technologies
-- Vanilla Javascript for game logic
+- Vanilla Javascript for main game logic
 
 - HTML5/canvas for DOM rendering/manipulation
 
@@ -62,7 +62,7 @@ From the active enemies queue, the enemies that should appear on the screen coul
 - [ ] Hard mode; two simultaneous games! (one above, one below)
 - [ ] Anti-enemies with reverse RPS logic
 - [ ] Upgrades and items
-- [ ] Better difficulty modulation with incrementing Levels
+- [ ] Better difficulty modulation with incrementing Levels --> increased likelihood of opposite enemy spawning next
 - [ ] Sound effects, presentational enhancement, etc
 
 
